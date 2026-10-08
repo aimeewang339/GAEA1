@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class earliestFinishTime {
+public class EarliestFinishTime {
     public static List<int[]> earliestFinishTime(List<int[]> jobs) {
         List<int[]> sortedJobs = new ArrayList<>(jobs);
 
