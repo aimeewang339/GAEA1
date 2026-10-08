@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class IntervalScheduling {
+public class earliestFinishTime {
     public static List<int[]> earliestFinishTime(List<int[]> jobs) {
         List<int[]> sortedJobs = new ArrayList<>(jobs);
 
