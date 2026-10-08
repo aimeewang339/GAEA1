@@ -12,7 +12,7 @@ public class IntervalScheduling {
         );
 
         List<int[]> selectedJobs = new ArrayList<>();
-        long lastFinish = long.MIN_VALUE;
+        long lastFinish = Long.MIN_VALUE;
 
         for(int[] job : sortedJobs) {
             if(job[0] >= lastFinish) {
@@ -36,7 +36,7 @@ public class IntervalScheduling {
 
         List<int[]> result = earliestFinishTime(jobs);
 
-        System.out.println("(" + job[0] + ", " + job[1] + ")");
+        System.out.println("Selected jobs:");
 
         for(int[] job : result) {
             System.out.println("(" + job[0] + ", " + job[1] + ")");
