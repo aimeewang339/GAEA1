@@ -2,6 +2,7 @@ import java.util.*;
 
 public class ExactSolver {
     // Exhaustive include/skip search, not a greedy selection rule.
+    // O(2^n) worst-case time and O(n) auxiliary space; intended for small inputs.
     public static List<int[]> exactSolver(List<int[]> jobs) {
         List<int[]> sortedJobs = new ArrayList<>(jobs);
         sortedJobs.sort(Comparator.comparingInt((int[] job) -> job[0])

@@ -4,7 +4,7 @@ public class EarliestFinishTime {
     public static List<int[]> earliestFinishTime(List<int[]> jobs) {
         List<int[]> sortedJobs = new ArrayList<>(jobs);
 
-        //sort jobs bt finish time, then start time
+        // Sort jobs by finish time, then start time.
         sortedJobs.sort(
             Comparator.comparingInt((int[] job) -> job[1])
                       .thenComparingInt(job -> job[0])
