@@ -1,0 +1,3 @@
+"algorithm","intervals","selected_ids","optimal_ids","selected_size","optimum_size"
+"EarliestStart","J0:[0,3);J1:[1,2);J2:[2,3)","J0","J1;J2","1","2"
+"ShortestDuration","J0:[0,3);J1:[2,4);J2:[3,5)","J1","J0;J2","1","2"

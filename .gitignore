@@ -1,5 +1,4 @@
-﻿# Generated Java classes and experiment results
+﻿# Generated Java classes and optional extra experiment runs
 *.class
 out/
-results/
 results_new/

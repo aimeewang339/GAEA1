@@ -1,0 +1,5 @@
+"algorithm","instances_checked","endpoint_min","endpoint_max","max_jobs","counterexample_found"
+"EarliestFinish","7546","0","6","4","false"
+"EarliestStart","7546","0","6","4","true"
+"ShortestDuration","7546","0","6","4","true"
+"LatestStart","7546","0","6","4","false"

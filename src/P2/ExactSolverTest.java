@@ -1,3 +1,5 @@
+package P2;
+
 import java.util.*;
 
 public class ExactSolverTest {

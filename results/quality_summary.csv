@@ -1,0 +1,5 @@
+"algorithm","instances","optimal_matches","optimal_percent","average_ratio","worst_ratio","worst_instance_id"
+"EarliestFinish","500","500","100.0","1.0","1.0","sparse-0"
+"EarliestStart","500","424","84.8","0.9488126262626275","0.3333333333333333","varied-55"
+"ShortestDuration","500","489","97.8","0.9939333333333334","0.5","varied-112"
+"LatestStart","500","500","100.0","1.0","1.0","sparse-0"

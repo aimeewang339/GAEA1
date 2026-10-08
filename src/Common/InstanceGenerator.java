@@ -1,3 +1,5 @@
+package Common;
+
 import java.util.*;
 
 public final class InstanceGenerator {

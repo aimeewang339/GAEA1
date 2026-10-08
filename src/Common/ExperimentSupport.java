@@ -1,3 +1,7 @@
+package Common;
+
+import P1.*;
+import P2.ExactSolver;
 import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.*;

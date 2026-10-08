@@ -1,0 +1,200 @@
+{
+    "version":  "0.2.0",
+    "configurations":  [
+                           {
+                               "type":  "java",
+                               "name":  "All tests and experiments",
+                               "request":  "launch",
+                               "mainClass":  "Common.RunExperiments",
+                               "classPaths":  [
+                                                  "${workspaceFolder}/out"
+                                              ],
+                               "sourcePaths":  [
+                                                   "${workspaceFolder}/src"
+                                               ],
+                               "cwd":  "${workspaceFolder}",
+                               "console":  "integratedTerminal",
+                               "preLaunchTask":  "Compile all Java"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "1a Earliest finish",
+                               "request":  "launch",
+                               "mainClass":  "P1.EarliestFinishTime",
+                               "classPaths":  [
+                                                  "${workspaceFolder}/out"
+                                              ],
+                               "sourcePaths":  [
+                                                   "${workspaceFolder}/src"
+                                               ],
+                               "cwd":  "${workspaceFolder}",
+                               "console":  "integratedTerminal",
+                               "preLaunchTask":  "Compile all Java"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "1b Earliest start",
+                               "request":  "launch",
+                               "mainClass":  "P1.EarliestStartTime",
+                               "classPaths":  [
+                                                  "${workspaceFolder}/out"
+                                              ],
+                               "sourcePaths":  [
+                                                   "${workspaceFolder}/src"
+                                               ],
+                               "cwd":  "${workspaceFolder}",
+                               "console":  "integratedTerminal",
+                               "preLaunchTask":  "Compile all Java"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "1c Shortest duration",
+                               "request":  "launch",
+                               "mainClass":  "P1.ShortestDuration",
+                               "classPaths":  [
+                                                  "${workspaceFolder}/out"
+                                              ],
+                               "sourcePaths":  [
+                                                   "${workspaceFolder}/src"
+                                               ],
+                               "cwd":  "${workspaceFolder}",
+                               "console":  "integratedTerminal",
+                               "preLaunchTask":  "Compile all Java"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "1d Latest start",
+                               "request":  "launch",
+                               "mainClass":  "P1.LatestStartTime",
+                               "classPaths":  [
+                                                  "${workspaceFolder}/out"
+                                              ],
+                               "sourcePaths":  [
+                                                   "${workspaceFolder}/src"
+                                               ],
+                               "cwd":  "${workspaceFolder}",
+                               "console":  "integratedTerminal",
+                               "preLaunchTask":  "Compile all Java"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "2 Exact solver",
+                               "request":  "launch",
+                               "mainClass":  "P2.ExactSolver",
+                               "classPaths":  [
+                                                  "${workspaceFolder}/out"
+                                              ],
+                               "sourcePaths":  [
+                                                   "${workspaceFolder}/src"
+                                               ],
+                               "cwd":  "${workspaceFolder}",
+                               "console":  "integratedTerminal",
+                               "preLaunchTask":  "Compile all Java"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "2 Exact solver tests",
+                               "request":  "launch",
+                               "mainClass":  "P2.ExactSolverTest",
+                               "classPaths":  [
+                                                  "${workspaceFolder}/out"
+                                              ],
+                               "sourcePaths":  [
+                                                   "${workspaceFolder}/src"
+                                               ],
+                               "cwd":  "${workspaceFolder}",
+                               "console":  "integratedTerminal",
+                               "preLaunchTask":  "Compile all Java"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "3 Counterexample search",
+                               "request":  "launch",
+                               "mainClass":  "P3.CounterexampleSearch",
+                               "classPaths":  [
+                                                  "${workspaceFolder}/out"
+                                              ],
+                               "sourcePaths":  [
+                                                   "${workspaceFolder}/src"
+                                               ],
+                               "cwd":  "${workspaceFolder}",
+                               "console":  "integratedTerminal",
+                               "preLaunchTask":  "Compile all Java"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "4 Earliest finish validation",
+                               "request":  "launch",
+                               "mainClass":  "P4.ValidateEarliestFinish",
+                               "classPaths":  [
+                                                  "${workspaceFolder}/out"
+                                              ],
+                               "sourcePaths":  [
+                                                   "${workspaceFolder}/src"
+                                               ],
+                               "cwd":  "${workspaceFolder}",
+                               "console":  "integratedTerminal",
+                               "preLaunchTask":  "Compile all Java"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "5 Compare heuristics",
+                               "request":  "launch",
+                               "mainClass":  "P5.CompareHeuristics",
+                               "classPaths":  [
+                                                  "${workspaceFolder}/out"
+                                              ],
+                               "sourcePaths":  [
+                                                   "${workspaceFolder}/src"
+                                               ],
+                               "cwd":  "${workspaceFolder}",
+                               "console":  "integratedTerminal",
+                               "preLaunchTask":  "Compile all Java"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "6 Runtime experiment",
+                               "request":  "launch",
+                               "mainClass":  "P6.RuntimeExperiment",
+                               "classPaths":  [
+                                                  "${workspaceFolder}/out"
+                                              ],
+                               "sourcePaths":  [
+                                                   "${workspaceFolder}/src"
+                                               ],
+                               "cwd":  "${workspaceFolder}",
+                               "console":  "integratedTerminal",
+                               "preLaunchTask":  "Compile all Java"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "Project tests",
+                               "request":  "launch",
+                               "mainClass":  "Common.ProjectTest",
+                               "classPaths":  [
+                                                  "${workspaceFolder}/out"
+                                              ],
+                               "sourcePaths":  [
+                                                   "${workspaceFolder}/src"
+                                               ],
+                               "cwd":  "${workspaceFolder}",
+                               "console":  "integratedTerminal",
+                               "preLaunchTask":  "Compile all Java"
+                           },
+                           {
+                               "type":  "java",
+                               "name":  "Audit saved CSV results",
+                               "request":  "launch",
+                               "mainClass":  "Common.AuditResults",
+                               "classPaths":  [
+                                                  "${workspaceFolder}/out"
+                                              ],
+                               "sourcePaths":  [
+                                                   "${workspaceFolder}/src"
+                                               ],
+                               "cwd":  "${workspaceFolder}",
+                               "console":  "integratedTerminal",
+                               "preLaunchTask":  "Compile all Java"
+                           }
+                       ]
+}

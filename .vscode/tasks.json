@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compile all Java",
+            "type": "process",
+            "command": "javac",
+            "args": ["--release", "21", "-d", "out", "@sources.txt"],
+            "options": {"cwd": "${workspaceFolder}"},
+            "group": {"kind": "build", "isDefault": true},
+            "problemMatcher": ["$javac"]
+        },
+        {
+            "label": "Run all tests and experiments",
+            "type": "process",
+            "command": "java",
+            "args": ["-cp", "out", "Common.RunExperiments"],
+            "options": {"cwd": "${workspaceFolder}"},
+            "dependsOn": "Compile all Java",
+            "problemMatcher": []
+        }
+    ]
+}

@@ -1,3 +1,6 @@
+package Common;
+
+import P2.ExactSolver;
 import java.io.*;
 import java.nio.file.*;
 import java.util.*;
